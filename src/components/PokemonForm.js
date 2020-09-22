@@ -3,6 +3,7 @@ import { Form } from 'semantic-ui-react'
 
 class PokemonForm extends React.Component {
   render() {
+    console.log("inside PokemonForm :", this.props)
     return (
       <div>
         <h3>Add a Pokemon!</h3>
